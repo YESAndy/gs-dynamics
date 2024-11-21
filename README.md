@@ -35,6 +35,7 @@ cd ..
 
 3. Install [Grounded SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything).
 ```
+export CUDA_HOME=/path/to/cuda
 pip install git+https://github.com/facebookresearch/segment-anything.git
 git clone git@github.com:IDEA-Research/GroundingDINO.git
 cd GroundingDINO
