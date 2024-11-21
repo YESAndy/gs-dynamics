@@ -33,6 +33,8 @@ python setup.py install
 cd ..
 ```
 
+MAKE SURE nvidia driver version matches with torch version. For 4090, I use Nvidia driver 550, torch 2.4.0 cuda 12.4
+
 3. Install [Grounded SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything).
 ```
 export CUDA_HOME=/path/to/cuda
